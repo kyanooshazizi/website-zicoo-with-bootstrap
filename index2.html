@@ -1,0 +1,610 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<link rel="stylesheet" href="style.css">
+<title>زیکو | مرجع آموزشی برنامه نویسی</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="css/bootstrap.min.css">
+<link rel="stylesheet" href="css/bootstrap-rtl.css">
+<script src="js/jquery-3.3.1.min.js"></script>
+<script src="js/popper.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="jscript.js"></script>
+<link rel="shortcut icon" href="img/logo.png" sizes="32x32" >
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</head>
+
+	
+<body>
+	<!--header start-->
+	<div class="container">
+		<div class="row">
+			<div class="d-none col-lg-3 d-lg-block my-3 align-content-center">
+				<img src="img/logo.png" alt="logo zicco" title="logo">
+			</div>
+			<div class="col-lg-6  my-5">
+				<div class="d-none input-group d-lg-flex justify-content-center">
+					<input type="search" class="form-control rounded-pill text-muted" placeholder="عبارت مورد نظر خود را جستجو کنید ...">
+					<div class="input-group-append ">
+						<button class="btn btn-primary  rounded-pill">جستجو</button>
+					</div>
+				</div>
+			</div>
+			<div class="d-none d-lg-block col-lg-3 my-5 custom-icon align-content-center ">
+				<a href="#" class="px-1 "><i class="fa fa-sign-in mr-5 "></i> ورود</a>
+				<a href="#" class=" border-right px-2"><i class="fa fa-user mr-1"></i> ثبت نام</a>
+				<a href="#"  class=" border-right px-2"><i class="fa fa-shopping-cart mr-1" data-toggle="tooltip" title="ُسبد خرید"></i></a>
+			</div>
+			<div class="col-12 d-lg-none d-flex justify-content-center custom-icon">
+				<a href="#" class="px-1"><i class="fa fa-sign-in mr-5"></i> ورود</a>
+				<a href="#" class=" border-right px-2"><i class="fa fa-user mr-1"></i> ثبت نام</a>
+				<a href="#"  class=" border-right px-2"><i class="fa fa-shopping-cart mr-1" data-toggle="tooltip" title="ُسبد خرید"></i></a>
+				<a href="#" class="px-2"><i class="fa fa-search mr-1 costom-search" data-toggle="collapse" data-target="#demo"></i></a>
+			</div>
+		</div>
+		<div class="row collapse show d-lg-none" id="demo">
+			<div class=" col-12 input-group justify-content-center my-4">
+					<input type="search" class="form-control rounded-pill" placeholder="عبارت مورد نظر خود را جستجو کنید ...">
+					<div class="input-group-append ">
+						<button class="btn btn-primary  rounded-pill">جستجو</button>
+					</div>
+			</div>
+		</div>
+		<!--header end-->
+	</div>
+	<!-- start meno-->
+	
+	<nav class="navbar navbar-expand-lg nav-header mt-2 navbar-dark">
+		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+		   <span class="navbar-toggler-icon"></span>
+		</button>
+		<div class="container">
+		<ul class="navbar-nav navbar-nav1 collapse navbar-collapse" id="collapsibleNavbar">
+			<li class="nav-item nav-item1 "><a class="nav-link pl-2 nav-link1" href="#">صفحه اصلی</a></li>
+			<li class="nav-item dropdown nav-item1">
+				<a  data-toggle="dropdown" class="dropdown-toggle nav-link nav-link1" href="#">دوره های متخصص</a>
+				<div class="dropdown-menu dropdown-menu1 ">
+					<a href="#" class="dropdown-item"> آموزش جاوا</a>
+					<a href="#" class="dropdown-item"> آموزش جاوااسکریپت</a>
+					<a href="#" class="dropdown-item"> آموزش php توسط امیر دینی</a>
+				</div>
+			</li>
+			<li class="nav-item dropdown nav-item1">
+				<a  data-toggle="dropdown" class="dropdown-toggle nav-link nav-link1">گرافیک</a>
+				<div class="dropdown-menu dropdown-menu1 ">
+					<a href="#" class="dropdown-item"> افتراافکت</a>
+					<a href="#" class="dropdown-item"> پریمر</a>
+					<a href="#" class="dropdown-item"> فتوشاب</a>
+				</div>
+			</li>
+			<li class="nav-item dropdown nav-item1">
+				<a  data-toggle="dropdown" class="dropdown-toggle nav-link nav-link1">آفیس</a>
+				<div class="dropdown-menu dropdown-menu1 ">
+					<a href="#" class="dropdown-item"> link1</a>
+					<a href="#" class="dropdown-item"> link2</a>
+					<a href="#" class="dropdown-item"> link3</a>
+				</div>
+			</li>
+			<li class="nav-item nav-item1"><a class="nav-link pl-2 nav-link1" href="#">لینوکس</a></li>
+			<li class="nav-item nav-item1"><a class="nav-link pl-2 nav-link1" href="#">سی پلاس پلاس</a></li>
+			<li class="nav-item nav-item1"><a class="nav-link pl-2 nav-link1" href="#">کانفیگ سرور های لینوکسی</a></li>
+			<li class="nav-item dropdown nav-item1">
+				<a  data-toggle="dropdown" class="dropdown-toggle nav-link nav-link1">مهندسی</a>
+				<div class="dropdown-menu dropdown-menu1">
+					<a href="#" class="dropdown-item"> link1</a>
+					<a href="#" class="dropdown-item"> link2</a>
+					<a href="#" class="dropdown-item"> link3</a>
+				</div>
+			</li>
+			<li class="nav-item nav-item1"><a class="nav-link pl-2 nav-link1" href="#">تماس باما</a></li>
+			<li class="nav-item nav-item1"><a class="nav-link nav-link1 " href="#">تحلیل بورسی</a></li>
+		</ul>
+			</div>
+	</nav>
+	<!-- آموزش پروژه محور bootstrap-->
+	<div class="container my-5">
+		<div class="">
+			<ul class="list-group">
+				<li class="list-group-item"> آموزش bootstrap 4 پروژه محور</li>
+				<li class="list-group-item">
+					<div class="row">
+						<div class="col-12 col-md-6 col-lg-6">
+							<table class="table table1" style="width:90%;">
+								<tr>
+									<th> بخش 3</th>
+									<th> متخصص فرونت اند</th>
+								</tr>
+								<tr>
+									<th> مدرس</th>
+									<th> امیر دینی</th>
+								</tr>
+								<tr>
+									<th> پیش نیاز</th>
+									<th> html css</th>
+								</tr>
+								<tr>
+									<th> وضعیت</th>
+									<th> در حال برگزاری</th>
+								</tr>
+								<tr>
+									<th> قسمت های ارسالی</th>
+									<th> 24</th>
+								</tr>
+							</table>
+						</div>
+						<!-- قسمت کنار table-->
+						<div class="col-12 col-md-6 col-lg-6">
+							<div class="row p-1 small calendar ml-1 " style="background-color:#F8F9FA; font-size:14px !important;">
+								<span><i class="fa fa-calendar align-middle pl-2"> اسفند 7، 1399 </i></span> 
+								<span><i class="fa fa-eye align-middle"></i> 3.256 </span>
+								<div>
+								<span style="color:#8E8E8E; "><i class="fa fa-align-justify align-middle pl-1 pr-3"></i> بوت استرپ 4</span>
+								<span><a class="pr-3" href="#">متخصص طراحی سایت ،</a></span>
+								<span><a class="pr-2" href="#">همه دوره ها</a></span></div>
+							</div>
+							<div class="mt-3">
+								<span class=" rounded-pill bg-danger p-1 px-3 text-white mr-0" > 73% تخفیف</span>
+								<span class="rounded-pill p-1 px-3 text-white bg-secondary" > 200 فروش</span>
+							</div>
+							<div class="my-3" style="line-height:2.2;">
+								به گام سوم یادگیری طراحی سایت خوش آمدید.
+
+بوت استرپ (bootstrap) یک فریم ورک است که در طراحی صفحات وب به صورت رسپانسیو به کار می ورد، بوت استرپ شامل دستورات HTML، CSS و توابع جاوااسکریپت برای تولید و نمایش فرم ها، دکمه ها و المان های مورد نیاز طراحی وب می باشد.
+
+از نظر سئو هیچ تفاوتی بین سایت هایی که با استفاده از فریم ورک بوت استرپ ایجاد می شود و سایت هایی که به صورت دستی ساخته شده باشد وجود ندارد.
+
+با توجه به اینکه بوت استرپ برای طراحی سایت های اختصاصی راحت است، حتی کاربرانی که مبتدی هستند و تسلط چندانی بر HTML و CSS ندارند هم می توانند به راحتی از این فریم ورک استفاده کنند.
+
+یا از یادگیری bootstrap 4 لذت ببرید و یا پول خود را پس بگیرید!
+							</div><hr>
+							<div>
+								<input type="number" class="form-control form-control-sm rounded-pill" min="0" value="1" style="width:15% !important;">
+								<button type="button" class="btn btn-success text-white my-2 rounded-pill"> 20.000 تومان - خرید محصول</button>
+							</div><hr>
+							<div style="font-size: smaller !important">
+								<a  class="my-2 rounded-pill bg-light p-2 text-muted mx-1 d-inline-flex"> آموزش bootstrap</a>
+								<a  class="my-2 rounded-pill bg-light p-2 text-muted mx-1 d-inline-flex"> آموزش bootstrap 4</a>
+								<a  class="my-2 rounded-pill bg-light p-2 text-muted mx-1 d-inline-flex"> آموزش بوت استرپ</a>
+								<a  class="my-2 rounded-pill bg-light p-2 text-muted mx-1 d-inline-flex"> آموزش بوت استرپ 4</a>
+								<a  class="my-2 rounded-pill bg-light p-2 text-muted mx-1 d-inline-flex"> آموزش پروژه محور بوت استرپ</a>
+								<a  class="my-2 rounded-pill bg-light p-2 text-muted mx-1 d-inline-flex"> بوت استرپ</a>
+								<a  class="my-2 rounded-pill bg-light p-2 text-muted mx-1 d-inline-flex"> بوت استرپ 4</a>
+								<a  class="my-2 rounded-pill bg-light p-2 text-muted mx-1 d-inline-flex"> بوت استرپ پروژه محور</a>
+								
+							</div>
+							
+						</div>
+					</div>
+				</li>
+				<li class="list-group-item">
+					<div class="icon-foot d-flex justify-content-end">
+					<a href="#"><i class="fa fa-twitter pl-4"></i></a>
+					<a href="#"><i class="fa fa-facebook pl-4"></i></a>
+					<a href="#"><i class="fa fa-instagram pl-4"></i></a>
+					<a href="#"><i class="fa fa-google pl-4"></i></a>
+					<a href="#"><i class="fa fa-telegram"></i></a>
+				</div>
+				</li>
+			</ul>
+		</div>
+	</div>
+	<!-- مشخصات و اطلاعات تکمیلی-->
+	<div class="container">
+		<ul class="list-group">
+			<li class="list-group-item list-group-item11">
+				<ul class="nav nav-tabs" style="border-bottom: none !important;">
+					<li class="nav-item"><a href="#demo1" data-toggle="tab" class="px-3 nav-link active"><i class="fa fa-paste "></i> مشخصات</a></li>
+					<li class="nav-item"><a href="#demo2" class="px-3 nav-link" data-toggle="tab"><i class="fa fa-table"></i> اطلاعات تکمیلی</a></li>
+					<li class="nav-item"><a href="#demo3" class="px-3 nav-link" data-toggle="tab"><i class="fa fa-comment"></i> پرسش و پاسخ  دوره (27) </a></li>
+				</ul>
+			</li>
+			<li  class="list-group-item tab-content">
+				<div class="tab-pane active" id="demo1">
+						<ul class=" d-flex col-md-8 col-lg-8 col-12">
+						<i class="fa fa-circle ml-3 mt-2 d-block"></i>
+						<li class="demo1-1 p-1 my-2 d-bloc w-100">
+							<span>دمو کلی دوره فرانت اند</span>
+							<video controls class="embed-responsive embed-responsive-item" >
+								<source src="http://dl.zicco.ir/demoes/E00.mp4">
+							</video>
+						</li>
+						</ul>
+					    <ul class=" d-flex col-md-8 col-lg-8 col-12">
+						<i class="fa fa-circle ml-3 mt-2 d-block"></i>
+						<li class="demo1-1 p-1 my-2 d-bloc w-100">
+							<span>دمو کلی دوره فرانت اند</span>
+							<video controls class="embed-responsive embed-responsive-item" >
+								<source src="http://dl.zicco.ir/demoes/E00.mp4">
+							</video>
+						</li>
+						</ul>
+					  <ul class=" d-flex col-md-8 col-lg-8 col-12">
+						<i class="fa fa-circle ml-3 mt-2 d-block"></i>
+						<li class="demo1-1 p-1 my-2 d-bloc w-100">
+							<span>آموزش پروژه محور bootstrap4 قسمت 0</span>
+							<p>
+نگاه اجمالی به دوره bootstrap 4 ، بوت استرپ چیست !؟ کاربرد های بوت استرپ ، پیش نیاز های این دوره</p>
+						</li>
+						</ul>
+					   <ul class=" d-flex col-md-8 col-lg-8 col-12">
+						<i class="fa fa-circle ml-3 mt-2 d-block"></i>
+						<li class="demo1-1 p-1 my-2 d-bloc w-100">
+							<span>آموزش پروژه محور bootstrap4 قسمت 1</span>
+							<p>
+نگاهی متخصصانه به بوت استرپ ، آموزش اضافه کردن بوت استرپ به صفحه ، تحلیل یک صفحه ساخته شده با بوت استرپ</p>
+						</li>
+						</ul>
+					 <ul class=" d-flex col-md-8 col-lg-8 col-12">
+						<i class="fa fa-circle ml-3 mt-2 d-block"></i>
+						<li class="demo1-1 p-1 my-2 d-bloc w-100">
+							<span>آموزش پروژه محور bootstrap4 قسمت 2</span>
+							<p>
+اضافه کردن بوت استرپ ، آموزش کار با دستورات آماده بوت استرپ ، بررسی ساختار کلاس های container و container و توضیحات کامل راجب متاتگ viewport</p>
+						</li>
+						</ul>
+					    <ul class=" d-flex col-md-8 col-lg-8 col-12">
+						<i class="fa fa-circle ml-3 mt-2 d-block"></i>
+						<li class="demo1-1 p-1 my-2 d-bloc w-100">
+							<span>آموزش پروژه محور bootstrap4 قسمت 3</span>
+							<p>
+بررسی سیستم گرید و شبکه بندی ۱۲ تایی در بوت استرپ xs - sm - md - lg</p>
+						</li>
+						</ul>
+					    <ul class=" d-flex col-md-8 col-lg-8 col-12">
+						<i class="fa fa-circle ml-3 mt-2 d-block"></i>
+						<li class="demo1-1 p-1 my-2 d-bloc w-100">
+							<span>آموزش پروژه محور bootstrap4 قسمت 4</span>
+							<p>
+بررسی سیستم گرید و شبکه بندی ۱۲ تایی در بوت استرپ xs - sm - md - lg</p>
+						</li>
+						</ul>
+					  <ul class=" d-flex col-md-8 col-lg-8 col-12">
+						<i class="fa fa-circle ml-3 mt-2 d-block"></i>
+						<li class="demo1-1 p-1 my-2 d-bloc w-100">
+							<span>آموزش پروژه محور bootstrap4 قسمت 4</span>
+							<p>
+بررسی سیستم گرید و شبکه بندی ۱۲ تایی در بوت استرپ xs - sm - md - lg</p>
+						</li>
+						</ul>
+					  <ul class=" d-flex col-md-8 col-lg-8 col-12">
+						<i class="fa fa-circle ml-3 mt-2 d-block"></i>
+						<li class="demo1-1 p-1 my-2 d-bloc w-100">
+							<span>آموزش پروژه محور bootstrap4 قسمت 4</span>
+							<p>
+بررسی سیستم گرید و شبکه بندی ۱۲ تایی در بوت استرپ xs - sm - md - lg</p>
+						</li>
+						</ul>
+					   <ul class=" d-flex col-md-8 col-lg-8 col-12">
+						<i class="fa fa-circle ml-3 mt-2 d-block"></i>
+						<li class="demo1-1 p-1 my-2 d-bloc w-100">
+							<span>آموزش پروژه محور bootstrap4 قسمت 4</span>
+							<p>
+بررسی سیستم گرید و شبکه بندی ۱۲ تایی در بوت استرپ xs - sm - md - lg</p>
+						</li>
+						</ul>
+					
+				</div>
+				<!-- اطلاعات تکمیلی-->
+				<div class="tab-pane fade" id="demo2">
+					<table class="table col-12 text-center table-takmili" > 
+						<tr>
+							<td class="rounded-pill">بخش 3</td>
+							<td class="rounded-pill"> متخصص فرونت اند</td>
+						</tr>
+						<tr>
+							<td >مدرس</td>
+							<td > امیر دینی</td>
+						</tr>
+						<tr>
+							<td class="rounded-pill">پیش نیاز</td>
+							<td class="rounded-pill">html css</td>
+						</tr>
+						<tr>
+							<td>وضعیت</td>
+							<td> در حال برگزاری</td>
+						</tr>
+						<tr>
+							<td class="rounded-pill">قسمت های ارسالی</td>
+							<td class="rounded-pill"> 24</td>
+						</tr>
+					</table>
+				</div>
+				<!--پرسش و پاسخ دوره-->
+				<div class="tab-pane fade" id="demo3">
+					<ul >
+						<li class="my-2">دیدگاه شما بعد از تایید مدیریت نمایش داده خواهد شد</li>
+						<li> از درج دیدگاه های تکراری خودداری کنید</li>
+						<li class="my-2"> ایمیل شما منتشر نخواهد شد</li>
+					</ul>
+					<div class="star pr-4">
+						<span class="pl-2">امتیاز شما: </span>
+						<i class="fa fa-star px-1"></i>
+						<i class="fa fa-star"></i>
+						<i class="fa fa-star px-1"></i>
+						<i class="fa fa-star"></i>
+						<i class="fa fa-star px-1"></i>
+					</div>
+					<form>
+					<div class="row">
+						<div class="col-12 col-md-6 col-lg-6 justify-content-between mt-3">
+						<label for="name"> نام <sup><i class="fa fa-asterisk" style="font-size: 10px; color: red;"></i> </sup></label>
+						<input type="name" class="rounded-pill form-control" id="name">
+						</div>
+						<div class="col-12 col-md-6 col-lg-6 justify-content-between mt-3">
+						<label for="mail"> ایمیل <sup><i class="fa fa-asterisk" style="font-size: 10px; color: red;"></i> </sup></label>
+						<input type="email" class=" rounded-pill  form-control" id="mail">
+						</div>
+					</div>
+					<div class="row">
+					<div class="col-12 mt-4">
+						<textarea  class="form-control" placeholder="دیدگاه خود را وارد نمایید" style="height:200px; border-radius:20px; resize:none!important;"></textarea>
+					</div>
+					</div>
+					<div class="d-flex justify-content-end">
+					<input type="submit" value="ارسال دیدگاه" class="btn btn-primary rounded-pill mt-4 " >
+					</div>
+					</form>
+					<!-- نظرات-->
+					<div class="media">
+						<div class="media1 media-body mb-4">
+							<div>
+							<span class="mx-3 span1">arash azizi</span>
+							<span> اسفند 7 ،1399</span>
+							<small><a href="#" class="btn btn-light text-muted rounded-pill mx-3" style="font-size:14px;">ارسال پاسخ</a></small>
+							</div>
+							<div class="mt-4" style="line-height:2.5px;">
+							<p>سلام آقای دینی انشاالله آموزش سئو هم مثل این آموزش جامع باشه و بترکونه</p>
+							<p>بسیار عالی هستش دوره هاتون ممنون</p>
+							</div>
+						</div>
+					</div> 
+					 <hr>
+					<div class="media">
+						<div class="media1 media-body mb-4">
+							<div>
+							<span class="mx-3 span1">arash azizi</span>
+							<span> اسفند 7 ،1399</span>
+							<small><a href="#" class="btn btn-light text-muted rounded-pill mx-3" style="font-size:14px;">ارسال پاسخ</a></small>
+							</div>
+							<div class="mt-4" style="line-height:2.5px;">
+							<p>سلام آقای دینی انشاالله آموزش سئو هم مثل این آموزش جامع باشه و بترکونه</p>
+							<p>بسیار عالی هستش دوره هاتون ممنون</p>
+							</div>
+								<!-- مدیا تودر تو-->
+								<div class="media shadow mr-5 mt-4 w-75">
+							   <div class="media2 media-body p-4" >
+								<div>
+								<span class="mx-3 span1">kianoosh</span>
+								<span> اسفند 9 ،1399</span>
+								<small><a href="#" class="btn btn-light text-muted rounded-pill mx-3" style="font-size:14px;">ارسال پاسخ</a></small>
+								</div>
+								<div class="mt-4" style="line-height:2.5px;">
+								<p> از لطف شما متشکرم</p>
+								</div>
+								</div>
+							   </div> 
+						</div>
+					</div> 
+						
+				</div>
+			</li>
+		</ul>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<!-- (main-section) 3-->
+	<div class="container row-after1">
+		<div class=" row d-flex justify-content-between">
+			<button class="py-2 px-4 mt-3 rounded-pill btn-section mr-2 "><i class="fa fa-file"></i> محصولات مرتبط</button>
+		</div>
+	</div>
+	<!--cart-->
+	<div class="container">
+		<div class="row  my-3">
+			<div class=" col-12 col-md-6 col-lg-4 col-xl-3">
+				<div class="card img-hover-top " >
+				<div class="img-hover">
+				<img class="card-img-top" src="img/after-effect.png" alt="Card image">
+				<span class="badge badge-secondary badge-pill p-2 px-1">50 <i class="fa fa-eye"></i></span>
+				<a class="btn btn-primary rounded-pill" href="#">مشاهده و خرید</a>
+				</div>
+				<div class="card-body">
+				<a class="card-title text-justify"  href="#"  >آموزش ساخت اپلیکیشن اندروید مشابه دیجیکالا</a>
+				<p class="card-text" >
+					<span class="text-muted d-block">بخش چهارم متخصص اندروید</span>
+					 <small class="text-muted text-justify">
+						 دراین بخش برای تکمیل دوره متخصص اندروید ، یک اپلیکیشن فروشگاهی مشابه 
+					دیجیکالا رو خواهیم داشت تا تمامی...
+					</small>
+				</p>
+				</div>
+				<div class="d-flex card-footer justify-content-between">
+					<small class="badge badge-danger badge-pill" >80%</small>
+					<div>
+						<span class="small text-muted" style="text-decoration:line-through !important; color:#CDCDCD !important;">100.000 تومان</span>
+						<span class="text-success">20.000 تومان</span>
+					</div>
+				</div>
+				</div>
+			</div>
+			<!--img tow-->
+			<div class=" col-12 col-md-6 col-lg-4 col-xl-3">
+				<div class="card img-hover-top" >
+				<div class="img-hover">
+				<img class="card-img-top" src="img/android.png" alt="Card image">
+				<span class="badge badge-secondary badge-pill p-2 px-1">87 <i class="fa fa-eye"></i></span>
+				<a class="btn btn-primary rounded-pill" href="#">مشاهده و خرید</a>
+				</div>
+				<div class="card-body">
+				<a class="card-title text-justify"  href="#"  >آموزش وب سرویس با web Apic Core وEntity Framework Core وامنیت توسط Jwt</a>
+				<p class="card-text" >
+					<span class="text-muted d-block">بخش سوم متخصص اندروید</span>
+					 <small class="text-muted text-justify">
+						 وب سرویس یک نوع رابط برنامه نویسی است که بر بستر وب پیاده سازی می شود. این رابط ها با...
+					</small>
+				</p>
+				</div>
+				<div class="d-flex card-footer justify-content-between">
+					<small class="badge badge-danger badge-pill" >70%</small>
+					<div>
+						<span class="small text-muted" style="text-decoration:line-through !important; color:#CDCDCD !important;">100.000 تومان</span>
+						<span class="text-success">30.000 تومان</span>
+					</div>
+				</div>
+				</div>
+			</div>
+			<!-- img3-->
+			<div class=" col-12 col-md-6 col-lg-4 col-xl-3">
+				<div class="card img-hover-top" >
+				<div class="img-hover">
+				<img class="card-img-top" src="img/config-405x230.jpg" alt="Card image">
+				<span class="badge badge-secondary badge-pill p-2 px-1">50 <i class="fa fa-eye"></i></span>
+				<a class="btn btn-primary rounded-pill" href="#">مشاهده و خرید</a>
+				</div>
+				<div class="card-body">
+				<a class="card-title text-justify"  href="#" >آموزش اندروید</a>
+				<p class="card-text" >
+					<span class="text-muted d-block">بخش دوم متخصص اندروید</span>
+					 <small class="text-muted text-justify">
+						برنامه نویسی اندروید یکی از بروزترین و پرکاربرد ترین و در عین حال پردرآمدترین ...
+					</small><br><br><br>
+				</p>
+				</div>
+				<div class="d-flex card-footer justify-content-between">
+					<small class="badge badge-danger badge-pill" >80%</small>
+					<div>
+						<span class="small text-muted" style="text-decoration:line-through !important; color:#CDCDCD !important;">100.000 تومان</span>
+						<span class="text-success">20.000 تومان</span>
+					</div>
+				</div>
+				</div>
+			</div>
+			<!--img4-->
+			<div class=" col-12 col-md-6 col-lg-4 col-xl-3">
+				<div class="card img-hover-top" >
+				<div class="img-hover">
+				<img class="card-img-top" src="img/php-basic.png" alt="Card image">
+				<span class="badge badge-secondary badge-pill p-2 px-1">50 <i class="fa fa-eye"></i></span>
+				<a class="btn btn-primary rounded-pill" href="#">مشاهده و خرید</a>
+				</div>
+				<div class="card-body">
+				<a class="card-title text-justify"  href="#" >آموزش ساخت اپلیکیشن اندروید مشابه دیجیکالا</a>
+				<p class="card-text" >
+					<span class="text-muted d-block">بخش چهارم متخصص اندروید</span>
+					 <small class="text-muted text-justify">
+						 دراین بخش برای تکمیل دوره متخصص اندروید ، یک اپلیکیشن فروشگاهی مشابه 
+					دیجیکالا رو خواهیم داشت تا تمامی...
+					</small>
+				</p>
+				</div>
+				<div class="d-flex card-footer justify-content-between">
+					<small class="badge badge-danger badge-pill" >80%</small>
+					<div>
+						<span class="small text-muted" style="text-decoration:line-through !important; color:#CDCDCD !important;">100.000 تومان</span>
+						<span class="text-success">20.000 تومان</span>
+					</div>
+				</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	
+	<!-- start footer-->
+	<div class="footer1 mt-3 mb-2">
+		<div class="my-4">
+		<h5 class="d-flex justify-content-center text-white pt-4">اشتراک در خبر نامه</h5>
+		<p  class="d-flex justify-content-center text-white col-12">جهت اطلاع از آخرین اخبار و تخفیف های سای مشترک خبر نامه شوید</p>
+		<div class="input-group d-flex col-12 col-md-8 col-lg-5 justify-content-center  mx-auto">
+			<input class="rounded-pill form-control" type="email" placeholder="ایمیل خود را وارد کنید..." >
+			<div class="input-group-append">
+			<button class=" btn btn-success rounded-pill mb-4">اشتراک</button>
+			</div>
+		</div>
+		</div>
+	</div>
+ <!--footer tow-->
+	<div class="container">
+		<div class="row">
+		<div class="col-12 col-md-6 col-lg-4 col-xl-3 daste">
+			<span class="pr-0" >دسته ها</span>
+			<ul class="pr-3 pt-3">
+				<li><a href="#">حمل و نقل، انبار داری و ارتباطات(2)</a></li>
+				<li><a href="#">دانش(1)</a></li>
+				<li><a href="#">سایر محصولات کانی و غیر فلزی</a></li>
+				<li><a href="#">سیمان، آهن وگچ(1)</a></li>
+				<li><a href="#">همه صنایع(4)</a></li>
+			</ul>
+		</div>
+		<div class="col-12 col-md-6 col-lg-3 daste">
+		<span class="pr-0">دسته ها</span>
+		<ul class="pr-3 pt-3">
+			<li>حمل و نقل، انبار داری و ارتباطات(2)</li>
+			<li>دانش(1)</li>
+			<li>سایر محصولات کانی و غیر فلزی</li>
+			<li>سیمان، آهن وگچ(1)</li>
+			<li>همه صنایع(4)</li>
+		</ul>
+		</div>
+		<div class="col-12 col-md-6 col-lg-3 daste">
+		<span class="pr-0">دسته ها</span>
+		<ul class="pr-3 pt-3">
+			<li>حمل و نقل، انبار داری و ارتباطات(2)</li>
+			<li>دانش(1)</li>
+			<li>سایر محصولات کانی و غیر فلزی</li>
+			<li>سیمان، آهن وگچ(1)</li>
+			<li>همه صنایع(4)</li>
+		</ul>
+		</div>
+		<div class="col-12 col-md-6 col-lg-3 daste">
+		<span class="pr-0">زرین پال</span>
+		<ul>
+		<img src="img/1.svg" class="pt-4" style="margin-right:-40px;">
+		</ul>
+		</div>
+		</div>
+	</div>
+	<!--fotter end-->
+	<div class="fot-end1">
+		<div class="container fot-end2 py-4">
+			<div class="row d-flex justify-content-between text-muted col-12">
+				<div >
+					<span class="border-left pl-1" > کلیه حقوق محفوظ می باشد.</span>
+					<span> copyRight <i class="fa fa-copyright"></i> 2006-2019</span>
+				</div>
+				<div class="icon-foot">
+					<a href="#"><i class="fa fa-twitter pl-3"></i></a>
+					<a href="#"><i class="fa fa-facebook pl-3"></i></a>
+					<a href="#"><i class="fa fa-instagram pl-3"></i></a>
+					<a href="#"><i class="fa fa-google pl-3"></i></a>
+					<a href="#"><i class="fa fa-telegram"></i></a>
+				</div>
+				<div >
+					<span class="border-left pl-1" > 98331026932+</span>
+					<span> kyanoosh.azizi@yahoo.com</span>
+				</div>
+			</div>
+		</div>
+	</div>
+
+</body>
+</html>

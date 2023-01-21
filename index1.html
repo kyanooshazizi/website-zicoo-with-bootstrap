@@ -1,0 +1,692 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<link rel="stylesheet" href="style.css">
+<title>زیکو | مرجع آموزشی برنامه نویسی</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="css/bootstrap.min.css">
+<link rel="stylesheet" href="css/bootstrap-rtl.css">
+<script src="js/jquery-3.3.1.min.js"></script>
+<script src="js/popper.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="jscript.js"></script>
+<link rel="shortcut icon" href="img/logo.png" sizes="32x32" >
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+	
+<body>
+	<!--header start-->
+	<div class="container">
+		<div class="row">
+			<div class="d-none col-lg-3 d-lg-block my-3 align-content-center">
+				<img src="img/logo.png" alt="logo zicco" title="logo">
+			</div>
+			<div class="col-lg-6  my-5">
+				<div class="d-none input-group d-lg-flex justify-content-center">
+					<input type="search" class="form-control rounded-pill text-muted" placeholder="عبارت مورد نظر خود را جستجو کنید ...">
+					<div class="input-group-append ">
+						<button class="btn btn-primary  rounded-pill">جستجو</button>
+					</div>
+				</div>
+			</div>
+			<div class="d-none d-lg-block col-lg-3 my-5 custom-icon align-content-center ">
+				<a href="#" class="px-1 "><i class="fa fa-sign-in mr-5 "></i> ورود</a>
+				<a href="#" class=" border-right px-2"><i class="fa fa-user mr-1"></i> ثبت نام</a>
+				<a href="#"  class=" border-right px-2"><i class="fa fa-shopping-cart mr-1" data-toggle="tooltip" title="ُسبد خرید"></i></a>
+			</div>
+			<div class="col-12 d-lg-none d-flex justify-content-center custom-icon">
+				<a href="#" class="px-1"><i class="fa fa-sign-in mr-5"></i> ورود</a>
+				<a href="#" class=" border-right px-2"><i class="fa fa-user mr-1"></i> ثبت نام</a>
+				<a href="#"  class=" border-right px-2"><i class="fa fa-shopping-cart mr-1" data-toggle="tooltip" title="ُسبد خرید"></i></a>
+				<a href="#" class="px-2"><i class="fa fa-search mr-1 costom-search" data-toggle="collapse" data-target="#demo"></i></a>
+			</div>
+		</div>
+		<div class="row collapse show d-lg-none" id="demo">
+			<div class=" col-12 input-group justify-content-center my-4">
+					<input type="search" class="form-control rounded-pill" placeholder="عبارت مورد نظر خود را جستجو کنید ...">
+					<div class="input-group-append ">
+						<button class="btn btn-primary  rounded-pill">جستجو</button>
+					</div>
+			</div>
+		</div>
+		<!--header end-->
+	</div>
+	<!-- start meno-->
+	
+	<nav class="navbar navbar-expand-lg nav-header mt-2 navbar-dark">
+		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+		   <span class="navbar-toggler-icon"></span>
+		</button>
+		<div class="container">
+		<ul class="navbar-nav navbar-nav1 collapse navbar-collapse" id="collapsibleNavbar">
+			<li class="nav-item nav-item1 "><a class="nav-link pl-2 nav-link1" href="#">صفحه اصلی</a></li>
+			<li class="nav-item dropdown nav-item1">
+				<a  data-toggle="dropdown" class="dropdown-toggle nav-link nav-link1" href="#">دوره های متخصص</a>
+				<div class="dropdown-menu dropdown-menu1 ">
+					<a href="#" class="dropdown-item"> آموزش جاوا</a>
+					<a href="#" class="dropdown-item"> آموزش جاوااسکریپت</a>
+					<a href="#" class="dropdown-item"> آموزش php توسط امیر دینی</a>
+				</div>
+			</li>
+			<li class="nav-item dropdown nav-item1">
+				<a  data-toggle="dropdown" class="dropdown-toggle nav-link nav-link1">گرافیک</a>
+				<div class="dropdown-menu dropdown-menu1 ">
+					<a href="#" class="dropdown-item"> افتراافکت</a>
+					<a href="#" class="dropdown-item"> پریمر</a>
+					<a href="#" class="dropdown-item"> فتوشاب</a>
+				</div>
+			</li>
+			<li class="nav-item dropdown nav-item1">
+				<a  data-toggle="dropdown" class="dropdown-toggle nav-link nav-link1">آفیس</a>
+				<div class="dropdown-menu dropdown-menu1 ">
+					<a href="#" class="dropdown-item"> link1</a>
+					<a href="#" class="dropdown-item"> link2</a>
+					<a href="#" class="dropdown-item"> link3</a>
+				</div>
+			</li>
+			<li class="nav-item nav-item1"><a class="nav-link pl-2 nav-link1" href="#">لینوکس</a></li>
+			<li class="nav-item nav-item1"><a class="nav-link pl-2 nav-link1" href="#">سی پلاس پلاس</a></li>
+			<li class="nav-item nav-item1"><a class="nav-link pl-2 nav-link1" href="#">کانفیگ سرور های لینوکسی</a></li>
+			<li class="nav-item dropdown nav-item1">
+				<a  data-toggle="dropdown" class="dropdown-toggle nav-link nav-link1">مهندسی</a>
+				<div class="dropdown-menu dropdown-menu1">
+					<a href="#" class="dropdown-item"> link1</a>
+					<a href="#" class="dropdown-item"> link2</a>
+					<a href="#" class="dropdown-item"> link3</a>
+				</div>
+			</li>
+			<li class="nav-item nav-item1"><a class="nav-link pl-2 nav-link1" href="#">تماس باما</a></li>
+			<li class="nav-item nav-item1"><a class="nav-link nav-link1 " href="#">تحلیل بورسی</a></li>
+		</ul>
+			</div>
+	</nav>
+	<!-- start img-->
+	<div class="img1 d-flex">
+		<div class="row  mx-auto  my-auto">
+			<span class="pt-2 px-1">برای تمامی آموزش ها گروه رفع اشکال رایگان ایجاد شد</span>
+			<button class="btn btn-primary" data-toggle="modal" data-target="#myModal" > عضویت رایگان</button>
+		</div>
+     <div class="modal" id="myModal">
+       <div class="modal-dialog">
+       <div class="modal-content">
+
+      <!-- Modal Header -->
+      <div class="modal-header">
+        <h4 class="modal-title">عضویت در گروه رفع اشکال</h4>
+      </div>
+
+      <!-- Modal body -->
+      <div class="modal-body">
+           <p class="mb-0">1.نام و نام خانوادگی</p>
+		   <p class="my-0">2.شماره تماس اکانت تلگرام</p>
+		   <p class="my-0">3.ایمیلی که با آن در سایت ثبت نام کردید</p>
+		   <p >4.نام دوره هایی که خریداری کرده اید</p>
+		  <div class="text-left d-block small">
+		   پیامک (09331026932)<i class="fa fa-envelope"></i><br>
+		  <i class="fa fa-envelope-open "> kyanoosh.azizi@yahoo.com</i><br>
+		  <i class="fa fa-telegram"> @zicco</i>
+		 </div>
+      </div>
+
+      <!-- Modal footer -->
+      <div class="modal-footer">
+        <button type="button" class="btn btn-danger" data-dismiss="modal">بستن</button>
+      </div>
+
+    </div>
+  </div>
+ </div>
+	</div>
+	<!-- (main-section)-->
+	<div class="container row-after">
+		<div class=" row d-flex justify-content-between">
+			<button class="py-2 px-4 mt-3 rounded-pill btn-section mr-2 "><img class="pl-1" src="img/diamond (1).png">متخصص اندروید</button>
+			<button class="py-2 px-5 mt-3 rounded-pill btn-section bg-secondary"> <i class="fa fa-plus pl-2 align-middle"></i>مشاهده همه</button>
+		</div>
+	</div>
+	<!--cart-->
+	<div class="container">
+		<div class="row  my-3">
+			<div class=" col-12 col-md-6 col-lg-4 col-xl-3">
+				<div class="card img-hover-top " >
+				<div class="img-hover">
+				<img class="card-img-top" src="img/buildapp-405x230.jpg" alt="Card image">
+				<span class="badge badge-secondary badge-pill p-2 px-1">50 <i class="fa fa-eye"></i></span>
+				<a class="btn btn-primary rounded-pill" href="#">مشاهده و خرید</a>
+				</div>
+				<div class="card-body">
+				<a class="card-title text-justify"  href="#"  >آموزش ساخت اپلیکیشن اندروید مشابه دیجیکالا</a>
+				<p class="card-text" >
+					<span class="text-muted d-block">بخش چهارم متخصص اندروید</span>
+					 <small class="text-muted text-justify">
+						 دراین بخش برای تکمیل دوره متخصص اندروید ، یک اپلیکیشن فروشگاهی مشابه 
+					دیجیکالا رو خواهیم داشت تا تمامی...
+					</small>
+				</p>
+				</div>
+				<div class="d-flex card-footer justify-content-between">
+					<small class="badge badge-danger badge-pill" >80%</small>
+					<div>
+						<span class="small text-muted" style="text-decoration:line-through !important; color:#CDCDCD !important;">100.000 تومان</span>
+						<span class="text-success">20.000 تومان</span>
+					</div>
+				</div>
+				</div>
+			</div>
+			<!--img tow-->
+			<div class=" col-12 col-md-6 col-lg-4 col-xl-3">
+				<div class="card img-hover-top" >
+				<div class="img-hover">
+				<img class="card-img-top" src="img/What-is-an-API-405x230.png" alt="Card image">
+				<span class="badge badge-secondary badge-pill p-2 px-1">87 <i class="fa fa-eye"></i></span>
+				<a class="btn btn-primary rounded-pill" href="#">مشاهده و خرید</a>
+				</div>
+				<div class="card-body">
+				<a class="card-title text-justify"  href="#"  >آموزش وب سرویس با web Apic Core وEntity Framework Core وامنیت توسط Jwt</a>
+				<p class="card-text" >
+					<span class="text-muted d-block">بخش سوم متخصص اندروید</span>
+					 <small class="text-muted text-justify">
+						 وب سرویس یک نوع رابط برنامه نویسی است که بر بستر وب پیاده سازی می شود. این رابط ها با...
+					</small>
+				</p>
+				</div>
+				<div class="d-flex card-footer justify-content-between">
+					<small class="badge badge-danger badge-pill" >70%</small>
+					<div>
+						<span class="small text-muted" style="text-decoration:line-through !important; color:#CDCDCD !important;">100.000 تومان</span>
+						<span class="text-success">30.000 تومان</span>
+					</div>
+				</div>
+				</div>
+			</div>
+			<!-- img3-->
+			<div class=" col-12 col-md-6 col-lg-4 col-xl-3">
+				<div class="card img-hover-top" >
+				<div class="img-hover">
+				<img class="card-img-top" src="img/android-studio-405x230.jpg" alt="Card image">
+				<span class="badge badge-secondary badge-pill p-2 px-1">50 <i class="fa fa-eye"></i></span>
+				<a class="btn btn-primary rounded-pill" href="#">مشاهده و خرید</a>
+				</div>
+				<div class="card-body">
+				<a class="card-title text-justify"  href="#" >آموزش اندروید</a>
+				<p class="card-text" >
+					<span class="text-muted d-block">بخش دوم متخصص اندروید</span>
+					 <small class="text-muted text-justify">
+						برنامه نویسی اندروید یکی از بروزترین و پرکاربرد ترین و در عین حال پردرآمدترین ...
+					</small><br><br><br>
+				</p>
+				</div>
+				<div class="d-flex card-footer justify-content-between">
+					<small class="badge badge-danger badge-pill" >80%</small>
+					<div>
+						<span class="small text-muted" style="text-decoration:line-through !important; color:#CDCDCD !important;">100.000 تومان</span>
+						<span class="text-success">20.000 تومان</span>
+					</div>
+				</div>
+				</div>
+			</div>
+			<!--img4-->
+			<div class=" col-12 col-md-6 col-lg-4 col-xl-3">
+				<div class="card img-hover-top" >
+				<div class="img-hover">
+				<img class="card-img-top" src="img/java1ex.png" alt="Card image">
+				<span class="badge badge-secondary badge-pill p-2 px-1">50 <i class="fa fa-eye"></i></span>
+				<a class="btn btn-primary rounded-pill" href="#">مشاهده و خرید</a>
+				</div>
+				<div class="card-body">
+				<a class="card-title text-justify"  href="#" >آموزش ساخت اپلیکیشن اندروید مشابه دیجیکالا</a>
+				<p class="card-text" >
+					<span class="text-muted d-block">بخش چهارم متخصص اندروید</span>
+					 <small class="text-muted text-justify">
+						 دراین بخش برای تکمیل دوره متخصص اندروید ، یک اپلیکیشن فروشگاهی مشابه 
+					دیجیکالا رو خواهیم داشت تا تمامی...
+					</small>
+				</p>
+				</div>
+				<div class="d-flex card-footer justify-content-between">
+					<small class="badge badge-danger badge-pill" >80%</small>
+					<div>
+						<span class="small text-muted" style="text-decoration:line-through !important; color:#CDCDCD !important;">100.000 تومان</span>
+						<span class="text-success">20.000 تومان</span>
+					</div>
+				</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- (main-section) tow-->
+	<div class="container row-after">
+		<div class=" row d-flex justify-content-between">
+			<button class="py-2 px-4 mt-3 rounded-pill btn-section mr-2 "><img class="pl-1" src="img/diamond (1).png">محبوبترین ها</button>
+			<button class="py-2 px-5 mt-3 rounded-pill btn-section bg-secondary"> <i class="fa fa-plus pl-2 align-middle"></i>مشاهده همه</button>
+		</div>
+	</div>
+	<!--cart-->
+	<div class="container">
+		<div class="row  my-3">
+			<div class=" col-12 col-md-6 col-lg-4 col-xl-3">
+				<div class="card img-hover-top " >
+				<div class="img-hover">
+				<img class="card-img-top" src="img/bootstrap-4.png" alt="Card image">
+				<span class="badge badge-secondary badge-pill p-2 px-1">50 <i class="fa fa-eye"></i></span>
+				<a class="btn btn-primary rounded-pill" href="#">مشاهده و خرید</a>
+				</div>
+				<div class="card-body">
+				<a class="card-title text-justify"  href="#"  >آموزش ساخت اپلیکیشن اندروید مشابه دیجیکالا</a>
+				<p class="card-text" >
+					<span class="text-muted d-block">بخش چهارم متخصص اندروید</span>
+					 <small class="text-muted text-justify">
+						 دراین بخش برای تکمیل دوره متخصص اندروید ، یک اپلیکیشن فروشگاهی مشابه 
+					دیجیکالا رو خواهیم داشت تا تمامی...
+					</small>
+				</p>
+				</div>
+				<div class="d-flex card-footer justify-content-between">
+					<small class="badge badge-danger badge-pill" >80%</small>
+					<div>
+						<span class="small text-muted" style="text-decoration:line-through !important; color:#CDCDCD !important;">100.000 تومان</span>
+						<span class="text-success">20.000 تومان</span>
+					</div>
+				</div>
+				</div>
+			</div>
+			<!--img tow-->
+			<div class=" col-12 col-md-6 col-lg-4 col-xl-3">
+				<div class="card img-hover-top" >
+				<div class="img-hover">
+				<img class="card-img-top" src="img/python3-405x230.png" alt="Card image">
+				<span class="badge badge-secondary badge-pill p-2 px-1">87 <i class="fa fa-eye"></i></span>
+				<a class="btn btn-primary rounded-pill" href="#">مشاهده و خرید</a>
+				</div>
+				<div class="card-body">
+				<a class="card-title text-justify"  href="#"  >آموزش وب سرویس با web Apic Core وEntity Framework Core وامنیت توسط Jwt</a>
+				<p class="card-text" >
+					<span class="text-muted d-block">بخش سوم متخصص اندروید</span>
+					 <small class="text-muted text-justify">
+						 وب سرویس یک نوع رابط برنامه نویسی است که بر بستر وب پیاده سازی می شود. این رابط ها با...
+					</small>
+				</p>
+				</div>
+				<div class="d-flex card-footer justify-content-between">
+					<small class="badge badge-danger badge-pill" >70%</small>
+					<div>
+						<span class="small text-muted" style="text-decoration:line-through !important; color:#CDCDCD !important;">100.000 تومان</span>
+						<span class="text-success">30.000 تومان</span>
+					</div>
+				</div>
+				</div>
+			</div>
+			<!-- img3-->
+			<div class=" col-12 col-md-6 col-lg-4 col-xl-3">
+				<div class="card img-hover-top" >
+				<div class="img-hover">
+				<img class="card-img-top" src="img/2019-405x230.jpg" alt="Card image">
+				<span class="badge badge-secondary badge-pill p-2 px-1">50 <i class="fa fa-eye"></i></span>
+				<a class="btn btn-primary rounded-pill" href="#">مشاهده و خرید</a>
+				</div>
+				<div class="card-body">
+				<a class="card-title text-justify"  href="#" >آموزش اندروید</a>
+				<p class="card-text" >
+					<span class="text-muted d-block">بخش دوم متخصص اندروید</span>
+					 <small class="text-muted text-justify">
+						برنامه نویسی اندروید یکی از بروزترین و پرکاربرد ترین و در عین حال پردرآمدترین ...
+					</small><br><br><br>
+				</p>
+				</div>
+				<div class="d-flex card-footer justify-content-between">
+					<small class="badge badge-danger badge-pill" >80%</small>
+					<div>
+						<span class="small text-muted" style="text-decoration:line-through !important; color:#CDCDCD !important;">100.000 تومان</span>
+						<span class="text-success">20.000 تومان</span>
+					</div>
+				</div>
+				</div>
+			</div>
+			<!--img4-->
+			<div class=" col-12 col-md-6 col-lg-4 col-xl-3">
+				<div class="card img-hover-top" >
+				<div class="img-hover">
+				<img class="card-img-top" src="img/php-basic.png" alt="Card image">
+				<span class="badge badge-secondary badge-pill p-2 px-1">50 <i class="fa fa-eye"></i></span>
+				<a class="btn btn-primary rounded-pill" href="#">مشاهده و خرید</a>
+				</div>
+				<div class="card-body">
+				<a class="card-title text-justify"  href="#" >آموزش ساخت اپلیکیشن اندروید مشابه دیجیکالا</a>
+				<p class="card-text" >
+					<span class="text-muted d-block">بخش چهارم متخصص اندروید</span>
+					 <small class="text-muted text-justify">
+						 دراین بخش برای تکمیل دوره متخصص اندروید ، یک اپلیکیشن فروشگاهی مشابه 
+					دیجیکالا رو خواهیم داشت تا تمامی...
+					</small>
+				</p>
+				</div>
+				<div class="d-flex card-footer justify-content-between">
+					<small class="badge badge-danger badge-pill" >80%</small>
+					<div>
+						<span class="small text-muted" style="text-decoration:line-through !important; color:#CDCDCD !important;">100.000 تومان</span>
+						<span class="text-success">20.000 تومان</span>
+					</div>
+				</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!--cart 2-->
+	<div class="container">
+		<div class="row  my-3">
+			<div class=" col-12 col-md-6 col-lg-4 col-xl-3">
+				<div class="card img-hover-top " >
+				<div class="img-hover">
+				<img class="card-img-top" src="img/video-ps-1000x494-405x230.jpg" alt="Card image">
+				<span class="badge badge-secondary badge-pill p-2 px-1">50 <i class="fa fa-eye"></i></span>
+				<a class="btn btn-primary rounded-pill" href="#">مشاهده و خرید</a>
+				</div>
+				<div class="card-body">
+				<a class="card-title text-justify"  href="#"  >آموزش ساخت اپلیکیشن اندروید مشابه دیجیکالا</a>
+				<p class="card-text" >
+					<span class="text-muted d-block">بخش چهارم متخصص اندروید</span>
+					 <small class="text-muted text-justify">
+						 دراین بخش برای تکمیل دوره متخصص اندروید ، یک اپلیکیشن فروشگاهی مشابه 
+					دیجیکالا رو خواهیم داشت تا تمامی...
+					</small>
+				</p>
+				</div>
+				<div class="d-flex card-footer justify-content-between">
+					<small class="badge badge-danger badge-pill" >80%</small>
+					<div>
+						<span class="small text-muted" style="text-decoration:line-through !important; color:#CDCDCD !important;">100.000 تومان</span>
+						<span class="text-success">20.000 تومان</span>
+					</div>
+				</div>
+				</div>
+			</div>
+			<!--img tow-->
+			<div class=" col-12 col-md-6 col-lg-4 col-xl-3">
+				<div class="card img-hover-top" >
+				<div class="img-hover">
+				<img class="card-img-top" src="img/java-1-min-405x230.png" alt="Card image">
+				<span class="badge badge-secondary badge-pill p-2 px-1">87 <i class="fa fa-eye"></i></span>
+				<a class="btn btn-primary rounded-pill" href="#">مشاهده و خرید</a>
+				</div>
+				<div class="card-body">
+				<a class="card-title text-justify"  href="#"  >آموزش وب سرویس با web Apic Core وEntity Framework Core وامنیت توسط Jwt</a>
+				<p class="card-text" >
+					<span class="text-muted d-block">بخش سوم متخصص اندروید</span>
+					 <small class="text-muted text-justify">
+						 وب سرویس یک نوع رابط برنامه نویسی است که بر بستر وب پیاده سازی می شود. این رابط ها با...
+					</small>
+				</p>
+				</div>
+				<div class="d-flex card-footer justify-content-between">
+					<small class="badge badge-danger badge-pill" >70%</small>
+					<div>
+						<span class="small text-muted" style="text-decoration:line-through !important; color:#CDCDCD !important;">100.000 تومان</span>
+						<span class="text-success">30.000 تومان</span>
+					</div>
+				</div>
+				</div>
+			</div>
+			<!-- img3-->
+			<div class=" col-12 col-md-6 col-lg-4 col-xl-3">
+				<div class="card img-hover-top" >
+				<div class="img-hover">
+				<img class="card-img-top" src="img/Cadvanced-405x230.jpg" alt="Card image">
+				<span class="badge badge-secondary badge-pill p-2 px-1">50 <i class="fa fa-eye"></i></span>
+				<a class="btn btn-primary rounded-pill" href="#">مشاهده و خرید</a>
+				</div>
+				<div class="card-body">
+				<a class="card-title text-justify"  href="#" >آموزش اندروید</a>
+				<p class="card-text" >
+					<span class="text-muted d-block">بخش دوم متخصص اندروید</span>
+					 <small class="text-muted text-justify">
+						برنامه نویسی اندروید یکی از بروزترین و پرکاربرد ترین و در عین حال پردرآمدترین ...
+					</small><br><br><br>
+				</p>
+				</div>
+				<div class="d-flex card-footer justify-content-between">
+					<small class="badge badge-danger badge-pill" >80%</small>
+					<div>
+						<span class="small text-muted" style="text-decoration:line-through !important; color:#CDCDCD !important;">100.000 تومان</span>
+						<span class="text-success">20.000 تومان</span>
+					</div>
+				</div>
+				</div>
+			</div>
+			<!--img4-->
+			<div class=" col-12 col-md-6 col-lg-4 col-xl-3">
+				<div class="card img-hover-top" >
+				<div class="img-hover">
+				<img class="card-img-top" src="img/node_js_development_company_by_leenajose-d8u9vq4-405x230.png" alt="Card image">
+				<span class="badge badge-secondary badge-pill p-2 px-1">50 <i class="fa fa-eye"></i></span>
+				<a class="btn btn-primary rounded-pill" href="#">مشاهده و خرید</a>
+				</div>
+				<div class="card-body">
+				<a class="card-title text-justify"  href="#" >آموزش ساخت اپلیکیشن اندروید مشابه دیجیکالا</a>
+				<p class="card-text" >
+					<span class="text-muted d-block">بخش چهارم متخصص اندروید</span>
+					 <small class="text-muted text-justify">
+						 دراین بخش برای تکمیل دوره متخصص اندروید ، یک اپلیکیشن فروشگاهی مشابه 
+					دیجیکالا رو خواهیم داشت تا تمامی...
+					</small>
+				</p>
+				</div>
+				<div class="d-flex card-footer justify-content-between">
+					<small class="badge badge-danger badge-pill" >80%</small>
+					<div>
+						<span class="small text-muted" style="text-decoration:line-through !important; color:#CDCDCD !important;">100.000 تومان</span>
+						<span class="text-success">20.000 تومان</span>
+					</div>
+				</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	
+	<!-- (main-section) 3-->
+	<div class="container row-after">
+		<div class=" row d-flex justify-content-between">
+			<button class="py-2 px-4 mt-3 rounded-pill btn-section mr-2 "><img class="pl-1" src="img/diamond (1).png">دوره های جدید</button>
+			<button class="py-2 px-5 mt-3 rounded-pill btn-section bg-secondary"> <i class="fa fa-plus pl-2 align-middle"></i>مشاهده همه</button>
+		</div>
+	</div>
+	<!--cart-->
+	<div class="container">
+		<div class="row  my-3">
+			<div class=" col-12 col-md-6 col-lg-4 col-xl-3">
+				<div class="card img-hover-top " >
+				<div class="img-hover">
+				<img class="card-img-top" src="img/after-effect.png" alt="Card image">
+				<span class="badge badge-secondary badge-pill p-2 px-1">50 <i class="fa fa-eye"></i></span>
+				<a class="btn btn-primary rounded-pill" href="#">مشاهده و خرید</a>
+				</div>
+				<div class="card-body">
+				<a class="card-title text-justify"  href="#"  >آموزش ساخت اپلیکیشن اندروید مشابه دیجیکالا</a>
+				<p class="card-text" >
+					<span class="text-muted d-block">بخش چهارم متخصص اندروید</span>
+					 <small class="text-muted text-justify">
+						 دراین بخش برای تکمیل دوره متخصص اندروید ، یک اپلیکیشن فروشگاهی مشابه 
+					دیجیکالا رو خواهیم داشت تا تمامی...
+					</small>
+				</p>
+				</div>
+				<div class="d-flex card-footer justify-content-between">
+					<small class="badge badge-danger badge-pill" >80%</small>
+					<div>
+						<span class="small text-muted" style="text-decoration:line-through !important; color:#CDCDCD !important;">100.000 تومان</span>
+						<span class="text-success">20.000 تومان</span>
+					</div>
+				</div>
+				</div>
+			</div>
+			<!--img tow-->
+			<div class=" col-12 col-md-6 col-lg-4 col-xl-3">
+				<div class="card img-hover-top" >
+				<div class="img-hover">
+				<img class="card-img-top" src="img/android.png" alt="Card image">
+				<span class="badge badge-secondary badge-pill p-2 px-1">87 <i class="fa fa-eye"></i></span>
+				<a class="btn btn-primary rounded-pill" href="#">مشاهده و خرید</a>
+				</div>
+				<div class="card-body">
+				<a class="card-title text-justify"  href="#"  >آموزش وب سرویس با web Apic Core وEntity Framework Core وامنیت توسط Jwt</a>
+				<p class="card-text" >
+					<span class="text-muted d-block">بخش سوم متخصص اندروید</span>
+					 <small class="text-muted text-justify">
+						 وب سرویس یک نوع رابط برنامه نویسی است که بر بستر وب پیاده سازی می شود. این رابط ها با...
+					</small>
+				</p>
+				</div>
+				<div class="d-flex card-footer justify-content-between">
+					<small class="badge badge-danger badge-pill" >70%</small>
+					<div>
+						<span class="small text-muted" style="text-decoration:line-through !important; color:#CDCDCD !important;">100.000 تومان</span>
+						<span class="text-success">30.000 تومان</span>
+					</div>
+				</div>
+				</div>
+			</div>
+			<!-- img3-->
+			<div class=" col-12 col-md-6 col-lg-4 col-xl-3">
+				<div class="card img-hover-top" >
+				<div class="img-hover">
+				<img class="card-img-top" src="img/config-405x230.jpg" alt="Card image">
+				<span class="badge badge-secondary badge-pill p-2 px-1">50 <i class="fa fa-eye"></i></span>
+				<a class="btn btn-primary rounded-pill" href="#">مشاهده و خرید</a>
+				</div>
+				<div class="card-body">
+				<a class="card-title text-justify"  href="#" >آموزش اندروید</a>
+				<p class="card-text" >
+					<span class="text-muted d-block">بخش دوم متخصص اندروید</span>
+					 <small class="text-muted text-justify">
+						برنامه نویسی اندروید یکی از بروزترین و پرکاربرد ترین و در عین حال پردرآمدترین ...
+					</small><br><br><br>
+				</p>
+				</div>
+				<div class="d-flex card-footer justify-content-between">
+					<small class="badge badge-danger badge-pill" >80%</small>
+					<div>
+						<span class="small text-muted" style="text-decoration:line-through !important; color:#CDCDCD !important;">100.000 تومان</span>
+						<span class="text-success">20.000 تومان</span>
+					</div>
+				</div>
+				</div>
+			</div>
+			<!--img4-->
+			<div class=" col-12 col-md-6 col-lg-4 col-xl-3">
+				<div class="card img-hover-top" >
+				<div class="img-hover">
+				<img class="card-img-top" src="img/php-basic.png" alt="Card image">
+				<span class="badge badge-secondary badge-pill p-2 px-1">50 <i class="fa fa-eye"></i></span>
+				<a class="btn btn-primary rounded-pill" href="#">مشاهده و خرید</a>
+				</div>
+				<div class="card-body">
+				<a class="card-title text-justify"  href="#" >آموزش ساخت اپلیکیشن اندروید مشابه دیجیکالا</a>
+				<p class="card-text" >
+					<span class="text-muted d-block">بخش چهارم متخصص اندروید</span>
+					 <small class="text-muted text-justify">
+						 دراین بخش برای تکمیل دوره متخصص اندروید ، یک اپلیکیشن فروشگاهی مشابه 
+					دیجیکالا رو خواهیم داشت تا تمامی...
+					</small>
+				</p>
+				</div>
+				<div class="d-flex card-footer justify-content-between">
+					<small class="badge badge-danger badge-pill" >80%</small>
+					<div>
+						<span class="small text-muted" style="text-decoration:line-through !important; color:#CDCDCD !important;">100.000 تومان</span>
+						<span class="text-success">20.000 تومان</span>
+					</div>
+				</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	
+	<!-- page enation-->
+	<div class="container">
+		<ul class="pagination justify-content-center mt-4 pagination-sm ">
+			<li class="page-item"><a class="page-link" href="#">قبلی</a></li>
+			<li class="page-item active"><a class="page-link" href="#">1</a></li>
+			<li class="page-item"><a class="page-link" href="#">2</a></li>
+			<li class="page-item"><a class="page-link" href="#">بعدی</a></li>
+		</ul>
+	</div>
+	<!-- start footer-->
+	<div class="footer1 mt-3 mb-2">
+		<div class="my-4">
+		<h5 class="d-flex justify-content-center text-white pt-4">اشتراک در خبر نامه</h5>
+		<p  class="d-flex justify-content-center text-white">جهت اطلاع از آخرین اخبار و تخفیف های سای مشترک خبر نامه شوید</p>
+		<div class="input-group d-flex col-12 col-md-8 col-lg-5 justify-content-center  mx-auto">
+			<input class="rounded-pill form-control" type="email" placeholder="ایمیل خود را وارد کنید..." >
+			<div class="input-group-append">
+			<button class=" btn btn-success rounded-pill mb-4">اشتراک</button>
+			</div>
+		</div>
+		</div>
+	</div>
+ <!--footer tow-->
+	<div class="container">
+		<div class="row">
+		<div class="col-12 col-md-6 col-lg-4 col-xl-3 daste">
+			<span class="pr-0" >دسته ها</span>
+			<ul class="pr-3 pt-3">
+				<li><a href="#">حمل و نقل، انبار داری و ارتباطات(2)</a></li>
+				<li><a href="#">دانش(1)</a></li>
+				<li><a href="#">سایر محصولات کانی و غیر فلزی</a></li>
+				<li><a href="#">سیمان، آهن وگچ(1)</a></li>
+				<li><a href="#">همه صنایع(4)</a></li>
+			</ul>
+		</div>
+		<div class="col-12 col-md-6 col-lg-3 daste">
+		<span class="pr-0">دسته ها</span>
+		<ul class="pr-3 pt-3">
+			<li>حمل و نقل، انبار داری و ارتباطات(2)</li>
+			<li>دانش(1)</li>
+			<li>سایر محصولات کانی و غیر فلزی</li>
+			<li>سیمان، آهن وگچ(1)</li>
+			<li>همه صنایع(4)</li>
+		</ul>
+		</div>
+		<div class="col-12 col-md-6 col-lg-3 daste">
+		<span class="pr-0">دسته ها</span>
+		<ul class="pr-3 pt-3">
+			<li>حمل و نقل، انبار داری و ارتباطات(2)</li>
+			<li>دانش(1)</li>
+			<li>سایر محصولات کانی و غیر فلزی</li>
+			<li>سیمان، آهن وگچ(1)</li>
+			<li>همه صنایع(4)</li>
+		</ul>
+		</div>
+		<div class="col-12 col-md-6 col-lg-3 daste">
+		<span class="pr-0">زرین پال</span>
+		<ul>
+		<img src="img/1.svg" class="pt-4" style="margin-right:-40px;">
+		</ul>
+		</div>
+		</div>
+	</div>
+	<!--fotter end-->
+	<div class="fot-end1">
+		<div class="container fot-end2 py-4">
+			<div class="row d-flex justify-content-between text-muted col-12">
+				<div >
+					<span class="border-left pl-1" > کلیه حقوق محفوظ می باشد.</span>
+					<span> copyRight <i class="fa fa-copyright"></i> 2006-2019</span>
+				</div>
+				<div class="icon-foot">
+					<a href="#"><i class="fa fa-twitter pl-3"></i></a>
+					<a href="#"><i class="fa fa-facebook pl-3"></i></a>
+					<a href="#"><i class="fa fa-instagram pl-3"></i></a>
+					<a href="#"><i class="fa fa-google pl-3"></i></a>
+					<a href="#"><i class="fa fa-telegram"></i></a>
+				</div>
+				<div >
+					<span class="border-left pl-1" > 98331026932+</span>
+					<span> kyanoosh.azizi@yahoo.com</span>
+				</div>
+			</div>
+		</div>
+	</div>
+
+</body>
+</html>
